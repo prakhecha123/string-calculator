@@ -81,8 +81,7 @@ If you don't have Ruby and Rails installed, you can follow these steps:
 
        delimiter = ","
        if numbers.start_with?("//")
-         parts = numbers.split("
-", 2)
+         parts = numbers.split("", 2)
          delimiter = parts.first[2..-1]
          numbers = parts.last
        end
